@@ -1,4 +1,4 @@
-
+#C:\Users\window 11\Desktop\dsa\DSA-2025\Queue\QueueNoSize.py
 
 class Queue:
     def __init__(self):
@@ -32,9 +32,6 @@ class Queue:
     
     def delete(self):
         self.items = None
-
-
-
 
 customQueue = Queue()
 customQueue.enqueue(1)
