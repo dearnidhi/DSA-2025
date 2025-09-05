@@ -65,11 +65,6 @@ class Queue:
         self.top = -1
         self.start = -1
 
-
-
-
-
-
 customQueue = Queue(3)
 customQueue.enqueue(1)
 customQueue.enqueue(2)
