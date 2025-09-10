@@ -53,6 +53,7 @@ def group_anagrams(words):
         key = ''.join(sorted(word))  # sort as key
         hashmap[key].append(word)
     return list(hashmap.values())
+
 #✅ 5. Longest Substring Without Repeating Characters
 def length_of_longest_substring(s):
     seen = {}
